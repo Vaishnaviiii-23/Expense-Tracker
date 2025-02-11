@@ -1,0 +1,237 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Navbar */
+nav {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #007bff;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+
+nav h1 {
+    font-size: 24px;
+}
+
+#darkModeToggle {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+/* Dashboard */
+/* Dashboard Layout */
+.dashboard {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    gap: 15px;
+}
+
+/* Individual Dashboard Cards */
+.card {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    width: 48%;
+    text-align: center;
+    color: white;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Card Icons */
+.card .icon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.card .icon img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Card Text */
+.card h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+/* Expense Form */
+.expense-form {
+    width: 100%;
+    max-width: 800px;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.expense-form input,
+.expense-form select,
+.expense-form button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.expense-form button {
+    background: #00c70a;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.expense-form button:hover {
+    background: #ff4a4a;
+}
+
+/* Expense Table */
+table {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background: #007bff;
+    color: white;
+}
+
+/* Chart Container */
+.chart-container {
+    width: 100%;
+    max-width: 600px; /* Reduced width */
+    margin: 20px auto;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.chart-container canvas {
+    width: 100% !important;
+    height: 300px !important; /* Reduced height */
+}
+
+/* Dark Mode Styling */
+.dark-mode {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.dark-mode nav {
+    background-color: #333;
+}
+
+.dark-mode .card {
+    background-color: #444;
+    color: white;
+}
+
+.dark-mode .expense-form {
+    background-color: #333;
+}
+
+.dark-mode table {
+    background-color: #444;
+}
+
+.dark-mode th {
+    background-color: #555;
+}
+
+.dark-mode button {
+    background-color: #666;
+    color: white;
+}
+/* Set Budget Section */
+.set-budget {
+    width: 100%;
+    max-width: 800px;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.set-budget label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.set-budget input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 40%;
+}
+
+.set-budget button {
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.set-budget button:hover {
+    background: #0056b3;
+}

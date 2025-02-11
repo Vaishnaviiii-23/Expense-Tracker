@@ -1,0 +1,53 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Fullscreen Landing Page */
+.hero {
+    height: 100vh;
+    background: url("../images/landing-bg.jpg") no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+/* Content Box */
+.content {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* Heading */
+.content h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+/* Paragraph */
+.content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background: #ff9800;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background: #e68900;
+}
