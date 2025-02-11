@@ -17,7 +17,6 @@ A modern, easy-to-use **Expense Tracker** that helps you track your daily spendi
 
 ## 🖼️ Screenshots  
 ![Expense Tracker Screenshot](images/screenshot.png)
-*(More screenshots can be added here!)*  
 
 ---
 
